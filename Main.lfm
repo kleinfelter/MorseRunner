@@ -1,7 +1,7 @@
 object MainForm: TMainForm
-  Left = 1136
+  Left = 474
   Height = 443
-  Top = 174
+  Top = 163
   Width = 759
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
@@ -23,7 +23,7 @@ object MainForm: TMainForm
   OnMouseWheelDown = FormMouseWheelDown
   OnMouseWheelUp = FormMouseWheelUp
   Position = poDesktopCenter
-  LCLVersion = '1.8.2.0'
+  LCLVersion = '2.0.8.0'
   object Bevel1: TBevel
     Left = 0
     Height = 2
