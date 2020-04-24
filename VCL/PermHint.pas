@@ -81,7 +81,7 @@ var
   Bits: Pointer;
   BytesPerScanline: Integer;
 
-    function FindScanline(Source: Pointer; MaxLen: Cardinal;
+{    function FindScanline(Source: Pointer; MaxLen: Cardinal;
       Value: Cardinal): Cardinal; assembler;
     asm
             PUSH    ECX
@@ -93,6 +93,7 @@ var
             MOV     EAX,ECX
             MOV     EDI,EDX
     end;
+}
 
 begin
 {
@@ -131,7 +132,6 @@ begin
   end;
   }
 end;
-
 
 
 

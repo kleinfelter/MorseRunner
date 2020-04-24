@@ -93,7 +93,7 @@ function TDownMixer.Mix(Data: TSingleArray): TComplexArray;
 var
   i: integer;
 begin
-  Integer(Result) := 0;
+  Result := nil;
   SetLength(Result, Length(Data));
   if Phase > TWO_PI then Phase := Phase - TWO_PI * Trunc(Phase/TWO_PI);
 
@@ -112,7 +112,7 @@ var
   i: integer;
   Sn, Cs, rr, ii: Single;
 begin
-  Integer(Result) := 0;
+  Result := nil;
   SetLength(Result, Length(Data));
   if Phase > TWO_PI then Phase := Phase - TWO_PI*Trunc(Phase/TWO_PI);
 
@@ -244,7 +244,7 @@ function TModulator.Modulate(Data: TReImArrays): TSingleArray;
 var
   i: integer;
 begin
-  Integer(Result) := 0;
+  Result := nil;
   SetLength(Result, Length(Data.Re));
   for i:=0 to High(Result) do
     begin
@@ -258,7 +258,7 @@ function TModulator.Modulate(Data: TSingleArray): TSingleArray;
 var
   i: integer;
 begin
-  Integer(Result) := 0;
+  Result := nil;
   SetLength(Result, Length(Data));
   for i:=0 to High(Result) do
     begin
@@ -272,7 +272,7 @@ function TModulator.Modulate(Data: TComplexArray): TSingleArray;
 var
   i: integer;
 begin
-  Integer(Result) := 0;
+  Result := nil;
   SetLength(Result, Length(Data));
   for i:=0 to High(Result) do
     begin
@@ -296,7 +296,7 @@ function TFastDownMixer.Mix(Data: TComplexArray): TComplexArray;
 var
   i: integer;
 begin
-  Integer(Result) := 0;
+  Result := nil;
   SetLength(Result, Length(Data));
 
   for i:=0 to High(Data) do
@@ -331,7 +331,7 @@ function TFastDownMixer.Mix(Data: TSingleArray): TComplexArray;
 var
   i: integer;
 begin
-  Integer(Result) := 0;
+  Result := nil;
   SetLength(Result, Length(Data));
 
   for i:=0 to High(Data) do
