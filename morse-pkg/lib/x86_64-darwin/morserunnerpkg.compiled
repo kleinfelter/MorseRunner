@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/ppcx64" Date="1572629024"/>
+  <Params Value=" -MObjFPC -Scghi -CX -O1 -l -vewnhibq -Fu/Users/kevin/Documents/Code/MorseRunner/morse-pkg -Fu/Library/Lazarus/packager/units/x86_64-darwin -Fu/Library/Lazarus/components/lazutils/lib/x86_64-darwin -Fu/Library/Lazarus/lcl/units/x86_64-darwin -FU/Users/kevin/Documents/Code/MorseRunner/morse-pkg/lib/x86_64-darwin/ morserunnerpkg.pas"/>
+  <Complete Value="False" MainPPUExists="False"/>
+</CONFIG>

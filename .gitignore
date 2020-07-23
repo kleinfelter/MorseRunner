@@ -8,3 +8,4 @@ MorseRunner.lps
 backup/
 morse-pkg/lib/i386-win32/morserunnerpkg.compiled
 *.bak
+*.compiled

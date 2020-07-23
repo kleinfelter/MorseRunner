@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/ppcx64" Date="1572629024"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw -gl -l -vewnhibq -Fu/Library/Lazarus/packager/units/x86_64-darwin -Fu/Users/kevin/Documents/Code/MorseRunner/synapse40/source/lib/ -FU/Users/kevin/Documents/Code/MorseRunner/synapse40/source/lib/lib/x86_64-darwin/ laz_synapse.pas"/>
+  <Complete Value="False" MainPPUExists="False"/>
+</CONFIG>
